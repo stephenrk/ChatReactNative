@@ -1,9 +1,9 @@
-import { Text, View } from "react-native";
+import { View, Text } from 'react-native';
 
-export default function ChannelListScreen() {
+export default function HomeScreen() {
   return (
-    <View className="flex-1 items-center justify-center">
-      <Text className="text-3xl">Channel List</Text>
+    <View className='flex-1 items-center justify-center'>
+      <Text className='text-3xl'>Channel List</Text>
     </View>
   );
 }
